@@ -18,13 +18,13 @@
     "ios",
     "webview-bridge"
   ],
-  "homepage": "https://github.com/wix/react-native-webview-bridge",
+  "homepage": "https://github.com/tradably/react-native-webview-bridge",
   "bugs": {
-    "url": "https://github.com/wix/react-native-webview-bridge/issues"
+    "url": "https://github.com/tradably/react-native-webview-bridge/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:wix/react-native-webview-bridge.git"
+    "url": "git@github.com:tradably/react-native-webview-bridge.git"
   },
   "scripts": {
     "build": ":",
@@ -35,5 +35,9 @@
   "dependencies": {
     "invariant": "2.2.0",
     "keymirror": "0.1.1"
+  },
+  "peerDependencies": {
+    "prop-types": "*",
+    "create-react-class": "*"
   }
 }
